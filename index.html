@@ -18,13 +18,16 @@
 <body>
 	<main>
 		<section class="ba-sf-form">
-			<div class="ba-container">
-				
-				<div class="ba-container__title">
+			<div class="ba-sf-form__title">
+				<div class="ba-container">
+					<div class="ba-container__title">
 					<a href="#">Sign in</a>
-					<a href="#">Join us</a>
+					<a href="#" class="ba-container__second-title">Join us</a>
 				</div>
-			
+				</div>
+			</div>
+			<div class="ba-sf-form__login">
+			<div class="ba-container">
 				<form action="" method="post" class="ba-container__login">
 					<div class="ba-row">
 						<div class="ba-col-12">
@@ -46,35 +49,37 @@
 						<div class="ba-col-12">
 							<div class="ba-float-label">
 								<input type="checkbox" name="checkbox" id="checkbox" class="ba-float-label__checkbox">
-								<label for="checkbox">Keep me signed in</label>
+								<label class="ba-float-label__check-text" for="checkbox">Keep me signed in</label>
 							</div>
 							<!-- /.ba-float-label -->
 						</div>
 						<!-- /.ba-col-12 -->
-						
-								<div class="ba-col-12">
-									<button type="submit" class="ba-button">Sign in</button>
-								</div>
-							
+
+						<div class="ba-col-12">
+							<button type="submit" class="ba-button">Sign in</button>
+						</div>
+
 					</div>
 					<!-- /.ba-row -->
-					
+
 				</form>
+			</div>
 				<!-- /.ba-form__login -->
-				<div class="ba-container__unsuccessfully">
-					
+				<div class="ba-sf-form__unsuccessfully">
+					<div class="ba-container">
 					<div class="ba-row">
-						<div class="ba-col-6">
-							<a href="">Forgot password</a>
+						<div class="ba-col-6 ba-unsuccessfully">
+							<a href="#">Forgot password</a>
 						</div>
 						<!-- /.ba-col-6 -->
-						<div class="ba-col-6">
-							<a href="">Create an account</a>
+						<div class="ba-col-6 ba-unsuccessfully">
+							<a href="#">Create an account</a>
 						</div>
 						<!-- /.ba-col-6 -->
 					</div>
 					<!-- /.ba-row -->
-				
+				</div>
+				<!-- /.ba-container -->
 				</div>
 				<!-- /.ba-form__unsuccessfully -->
 			</div>
